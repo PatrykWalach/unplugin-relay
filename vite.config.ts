@@ -6,6 +6,7 @@ export default defineConfig({
       tsgo: true,
     },
     exports: true,
+    entry: ["src/*.ts"],
   },
   lint: {
     options: {
