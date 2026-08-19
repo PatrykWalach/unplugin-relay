@@ -1,26 +1,29 @@
+allowBuilds:
+  core-js: false
+  esbuild: false
 catalog:
   vite: npm:@voidzero-dev/vite-plus-core@0.2.9
   vite-plus: 0.2.9
 minimumReleaseAgeExclude:
-  - '@oxc-transform-relay/binding-android-arm-eabi@0.145.0'
-  - '@oxc-transform-relay/binding-android-arm64@0.145.0'
-  - '@oxc-transform-relay/binding-darwin-arm64@0.145.0'
-  - '@oxc-transform-relay/binding-darwin-x64@0.145.0'
-  - '@oxc-transform-relay/binding-freebsd-x64@0.145.0'
-  - '@oxc-transform-relay/binding-linux-arm-gnueabihf@0.145.0'
-  - '@oxc-transform-relay/binding-linux-arm-musleabihf@0.145.0'
-  - '@oxc-transform-relay/binding-linux-arm64-gnu@0.145.0'
-  - '@oxc-transform-relay/binding-linux-arm64-musl@0.145.0'
-  - '@oxc-transform-relay/binding-linux-ppc64-gnu@0.145.0'
-  - '@oxc-transform-relay/binding-linux-riscv64-gnu@0.145.0'
-  - '@oxc-transform-relay/binding-linux-riscv64-musl@0.145.0'
-  - '@oxc-transform-relay/binding-linux-s390x-gnu@0.145.0'
-  - '@oxc-transform-relay/binding-linux-x64-gnu@0.145.0'
-  - '@oxc-transform-relay/binding-linux-x64-musl@0.145.0'
-  - '@oxc-transform-relay/binding-openharmony-arm64@0.145.0'
-  - '@oxc-transform-relay/binding-win32-arm64-msvc@0.145.0'
-  - '@oxc-transform-relay/binding-win32-ia32-msvc@0.145.0'
-  - '@oxc-transform-relay/binding-win32-x64-msvc@0.145.0'
+  - "@oxc-transform-relay/binding-android-arm-eabi@0.145.0"
+  - "@oxc-transform-relay/binding-android-arm64@0.145.0"
+  - "@oxc-transform-relay/binding-darwin-arm64@0.145.0"
+  - "@oxc-transform-relay/binding-darwin-x64@0.145.0"
+  - "@oxc-transform-relay/binding-freebsd-x64@0.145.0"
+  - "@oxc-transform-relay/binding-linux-arm-gnueabihf@0.145.0"
+  - "@oxc-transform-relay/binding-linux-arm-musleabihf@0.145.0"
+  - "@oxc-transform-relay/binding-linux-arm64-gnu@0.145.0"
+  - "@oxc-transform-relay/binding-linux-arm64-musl@0.145.0"
+  - "@oxc-transform-relay/binding-linux-ppc64-gnu@0.145.0"
+  - "@oxc-transform-relay/binding-linux-riscv64-gnu@0.145.0"
+  - "@oxc-transform-relay/binding-linux-riscv64-musl@0.145.0"
+  - "@oxc-transform-relay/binding-linux-s390x-gnu@0.145.0"
+  - "@oxc-transform-relay/binding-linux-x64-gnu@0.145.0"
+  - "@oxc-transform-relay/binding-linux-x64-musl@0.145.0"
+  - "@oxc-transform-relay/binding-openharmony-arm64@0.145.0"
+  - "@oxc-transform-relay/binding-win32-arm64-msvc@0.145.0"
+  - "@oxc-transform-relay/binding-win32-ia32-msvc@0.145.0"
+  - "@oxc-transform-relay/binding-win32-x64-msvc@0.145.0"
   - oxc-transform-relay@0.145.0
 overrides:
   vite: "catalog:"
