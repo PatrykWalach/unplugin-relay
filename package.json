@@ -1,16 +1,49 @@
 {
-  "name": "vite-plugin-relay-oxc",
+  "name": "unplugin-relay",
   "version": "0.1.0",
-  "description": "A starter for creating a TypeScript package.",
-  "homepage": "https://github.com/author/library#readme",
+  "description": "A plugin for relay",
+  "keywords": [
+    "astro",
+    "astro-plugin",
+    "astro-plugin-relay",
+    "esbuild",
+    "esbuild-plugin",
+    "esbuild-plugin-relay",
+    "farm",
+    "farm-plugin",
+    "farm-plugin-relay",
+    "graphql",
+    "graphql-relay",
+    "nuxt",
+    "nuxt-plugin",
+    "nuxt-plugin-relay",
+    "relay",
+    "rolldown",
+    "rolldown-plugin",
+    "rolldown-plugin-relay",
+    "rollup",
+    "rollup-plugin",
+    "rollup-plugin-relay",
+    "rspack",
+    "rspack-plugin",
+    "rspack-plugin-relay",
+    "typescript",
+    "vite",
+    "vite-plugin",
+    "vite-plugin-relay",
+    "webpack",
+    "webpack-plugin",
+    "webpack-plugin-relay"
+  ],
+  "homepage": "https://github.com/PatrykWalach/unplugin-relay#readme",
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/PatrykWalach/unplugin-relay/issues"
   },
   "license": "MIT",
-  "author": "Author Name <author.name@mail.com>",
+  "author": "Patryk Wałach <author.name@mail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/author/library.git"
+    "url": "git+https://github.com/PatrykWalach/unplugin-relay.git"
   },
   "files": [
     "dist"
@@ -18,6 +51,16 @@
   "type": "module",
   "exports": {
     ".": "./dist/index.mjs",
+    "./astro": "./dist/astro.mjs",
+    "./esbuild": "./dist/esbuild.mjs",
+    "./farm": "./dist/farm.mjs",
+    "./nuxt": "./dist/nuxt.mjs",
+    "./rolldown": "./dist/rolldown.mjs",
+    "./rollup": "./dist/rollup.mjs",
+    "./rspack": "./dist/rspack.mjs",
+    "./types": "./dist/types.mjs",
+    "./vite": "./dist/vite.mjs",
+    "./webpack": "./dist/webpack.mjs",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -31,7 +74,8 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "oxc-transform-relay": "^0.145.0"
+    "oxc-transform-relay": "^0.145.0",
+    "unplugin": "^3.3.0"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
