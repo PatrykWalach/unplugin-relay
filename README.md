@@ -1,23 +1,20 @@
-# vite-plus-starter
+# Vite Plugin Relay OXC
 
-A starter for creating a Vite Plus project.
+## Usage
 
-## Development
+```tsx
+import relay from "vite-plugin-relay-oxc";
+import relayConfig from "./relay.config.json" with { type: "json" };
+import path from "path";
 
-- Install dependencies:
-
-```bash
-vp install
-```
-
-- Run the unit tests:
-
-```bash
-vp test
-```
-
-- Build the library:
-
-```bash
-vp pack
+export default defineConfig({
+  devtools: true,
+  plugins: [
+    relay({
+      language: relayConfig.language,
+      eagerEsModules: relayConfig.eagerEsModules,
+      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+    }),
+  ],
+});
 ```
