@@ -9,20 +9,22 @@ export const unpluginFactory: UnpluginFactory<Options | undefined> = (options) =
     return /.(t|j)sx?/.test(id);
   },
   async transform(code, id) {
-    const result = await transform(id.split("?")[0]!, code, { sourcemap: true, ...options });
+    if (code.includes("graphql`")) {
+      const result = await transform(id.split("?")[0]!, code, { sourcemap: true, ...options });
 
-    const diagnostics = result.errors.map(
-      (error) => `${error.message}${error.codeframe ? `\n${error.codeframe}` : ""}`,
-    );
+      const diagnostics = result.errors.map(
+        (error) => `${error.message}${error.codeframe ? `\n${error.codeframe}` : ""}`,
+      );
 
-    for (const diagnostic of diagnostics) {
-      this.warn(diagnostic);
+      for (const diagnostic of diagnostics) {
+        this.warn(diagnostic);
+      }
+
+      return {
+        code: result.code,
+        map: result.map,
+      };
     }
-
-    return {
-      code: result.code,
-      map: result.map,
-    };
   },
 });
 
