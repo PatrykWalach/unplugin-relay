@@ -58,4 +58,4 @@ jobs:
 
       # Publish with npm OIDC trusted publishing (no NPM_TOKEN needed).
       # Requires npm CLI >= 11.5.1 and a configured trusted publisher on npmjs.com.
-      - run: vp pm stage publish --no-git-checks
+      - run: vp pm stage publish -- --no-git-checks
