@@ -37,6 +37,8 @@ jobs:
 
       - name: Create tag
         uses: actions/github-script@v8
+        env:
+          PACKAGE_VERSION: ${{ steps.version.outputs.version }}
         with:
           script: |
             await github.rest.git.createRef({
@@ -45,8 +47,6 @@ jobs:
               ref: `refs/tags/v${PACKAGE_VERSION}`,
               sha: context.payload.pull_request.merge_commit_sha,
             })
-          env:
-            PACKAGE_VERSION: ${{ steps.version.outputs.version }}
 
       - run: vp run build
 
