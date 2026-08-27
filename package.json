@@ -74,7 +74,7 @@
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
-    "oxc-transform-relay": "^0.145.0",
+    "oxc-transform-relay": "^0.147.0",
     "unplugin": "^3.3.0"
   },
   "devDependencies": {
