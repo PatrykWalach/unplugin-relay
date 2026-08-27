@@ -78,10 +78,10 @@
     "unplugin": "^3.3.0"
   },
   "devDependencies": {
-    "@types/node": "^26.1.1",
-    "bumpp": "^11.1.0",
-    "pkg-pr-new": "^0.0.88",
-    "typescript": "^7.0.2",
+    "@types/node": "26.2.0",
+    "bumpp": "11.1.0",
+    "pkg-pr-new": "0.0.88",
+    "typescript": "7.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:"
   },

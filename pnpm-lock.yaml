@@ -245,16 +245,16 @@ importers:
         version: 5.109.2(esbuild@0.28.2)(lightningcss@1.33.0)(postcss@8.5.26)
     devDependencies:
       '@types/node':
-        specifier: ^26.1.1
+        specifier: 26.2.0
         version: 26.2.0
       bumpp:
-        specifier: ^11.1.0
+        specifier: 11.1.0
         version: 11.1.0
       pkg-pr-new:
-        specifier: ^0.0.88
+        specifier: 0.0.88
         version: 0.0.88
       typescript:
-        specifier: ^7.0.2
+        specifier: 7.0.2
         version: 7.0.2
       vite-plus:
         specifier: 'catalog:'

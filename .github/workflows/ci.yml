@@ -20,7 +20,7 @@ jobs:
         fetch-depth: 0
         filter: blob:none
         persist-credentials: false
-    - uses: voidzero-dev/setup-vp@v1
+    - uses: voidzero-dev/setup-vp@250f29ce396baf5e8f24498e17c0dfdebabc26eb # v1
       with:
         sfw: true
         cache: false
