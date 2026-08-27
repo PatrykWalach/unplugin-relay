@@ -54,6 +54,7 @@ jobs:
       - run: vp dlx changelogithub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       # Publish with npm OIDC trusted publishing (no NPM_TOKEN needed).
       # Requires npm CLI >= 11.5.1 and a configured trusted publisher on npmjs.com.
