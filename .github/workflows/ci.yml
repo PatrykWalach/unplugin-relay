@@ -1,0 +1,28 @@
+
+
+on:
+  push:
+    branches:
+      - renovate/**
+  pull_request:
+  merge_group:
+  workflow_dispatch:
+
+
+permissions: {}
+
+jobs:
+  publish-pkg-pr-new:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        fetch-depth: 0
+        filter: blob:none
+        persist-credentials: false
+    - uses: voidzero-dev/setup-vp@v1
+      with:
+        sfw: true
+        cache: false
+    - run: vp run build
+    - run: vp exec pkg-pr-new publish --pnpm --packageManager="pnpm"
