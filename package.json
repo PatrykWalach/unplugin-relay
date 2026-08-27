@@ -71,6 +71,7 @@
     "dev": "vp pack --watch",
     "test": "vp test",
     "check": "vp check",
+    "release": "bumpp --pr",
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
