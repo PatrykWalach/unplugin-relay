@@ -44,7 +44,7 @@ jobs:
             await github.rest.git.createRef({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              ref: `refs/tags/v${PACKAGE_VERSION}`,
+              ref: `refs/tags/v${process.env.PACKAGE_VERSION}`,
               sha: context.payload.pull_request.merge_commit_sha,
             })
 
