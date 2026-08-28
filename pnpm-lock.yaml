@@ -220,10 +220,10 @@ importers:
         specifier: '>=1'
         version: 1.7.11(@types/node@26.2.0)(supports-color@8.1.1)
       '@nuxt/kit':
-        specifier: ^3
+        specifier: ^3 || ^4.0.0
         version: 3.21.11
       '@nuxt/schema':
-        specifier: ^3
+        specifier: ^3 || ^4.0.0
         version: 3.21.11
       esbuild:
         specifier: '*'
