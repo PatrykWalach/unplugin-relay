@@ -9,7 +9,6 @@
 npm i unplugin-relay
 ```
 
-
 <details>
 <summary>Vite</summary><br>
 
@@ -20,11 +19,13 @@ import relayConfig from "./relay.config.json" with { type: "json" };
 import path from "path";
 
 export default defineConfig({
-  plugins: [relay({
-    language: relayConfig.language,
-    eagerEsModules: relayConfig.eagerEsModules,
-    artifactDirectory: path.resolve(relayConfig.artifactDirectory),
-  })],
+  plugins: [
+    relay({
+      language: relayConfig.language,
+      eagerEsModules: relayConfig.eagerEsModules,
+      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+    }),
+  ],
 });
 ```
 
@@ -42,11 +43,13 @@ import relayConfig from "./relay.config.json" with { type: "json" };
 import path from "path";
 
 export default {
-  plugins: [relay({
-    language: relayConfig.language,
-    eagerEsModules: relayConfig.eagerEsModules,
-    artifactDirectory: path.resolve(relayConfig.artifactDirectory),
-  })],
+  plugins: [
+    relay({
+      language: relayConfig.language,
+      eagerEsModules: relayConfig.eagerEsModules,
+      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+    }),
+  ],
 };
 ```
 
@@ -62,11 +65,13 @@ import relayConfig from "./relay.config.json" with { type: "json" };
 import path from "path";
 
 export default {
-  plugins: [relay({
-    language: relayConfig.language,
-    eagerEsModules: relayConfig.eagerEsModules,
-    artifactDirectory: path.resolve(relayConfig.artifactDirectory),
-  })],
+  plugins: [
+    relay({
+      language: relayConfig.language,
+      eagerEsModules: relayConfig.eagerEsModules,
+      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+    }),
+  ],
 };
 ```
 
@@ -79,11 +84,13 @@ export default {
 // webpack.config.js
 module.exports = {
   /* ... */
-  plugins: [require("unplugin-relay/webpack")({
-    language: relayConfig.language,
-    eagerEsModules: relayConfig.eagerEsModules,
-    artifactDirectory: path.resolve(relayConfig.artifactDirectory),
-  })],
+  plugins: [
+    require("unplugin-relay/webpack")({
+      language: relayConfig.language,
+      eagerEsModules: relayConfig.eagerEsModules,
+      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+    }),
+  ],
 };
 ```
 
@@ -94,12 +101,20 @@ module.exports = {
 
 ```ts
 // nuxt.config.js
+import relayConfig from "./relay.config.json" with { type: "json" };
+import path from "path";
+
 export default defineNuxtConfig({
-  modules: [["unplugin-relay/nuxt", {
-    language: relayConfig.language,
-    eagerEsModules: relayConfig.eagerEsModules,
-    artifactDirectory: path.resolve(relayConfig.artifactDirectory),
-  }]],
+  modules: [
+    [
+      "unplugin-relay/nuxt",
+      {
+        language: relayConfig.language,
+        eagerEsModules: relayConfig.eagerEsModules,
+        artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+      },
+    ],
+  ],
 });
 ```
 
@@ -112,13 +127,18 @@ export default defineNuxtConfig({
 
 ```ts
 // vue.config.js
+const relayConfig = require("./relay.config.json");
+const path = require("path");
+
 module.exports = {
   configureWebpack: {
-    plugins: [require("unplugin-relay/webpack")({
-      language: relayConfig.language,
-      eagerEsModules: relayConfig.eagerEsModules,
-      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
-    })],
+    plugins: [
+      require("unplugin-relay/webpack")({
+        language: relayConfig.language,
+        eagerEsModules: relayConfig.eagerEsModules,
+        artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+      }),
+    ],
   },
 };
 ```
@@ -136,7 +156,13 @@ import relayConfig from "./relay.config.json" with { type: "json" };
 import path from "path";
 
 build({
-  plugins: [relay()],
+  plugins: [
+    relay({
+      language: relayConfig.language,
+      eagerEsModules: relayConfig.eagerEsModules,
+      artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+    }),
+  ],
 });
 ```
 
