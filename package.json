@@ -80,7 +80,7 @@
   },
   "devDependencies": {
     "@types/node": "26.2.0",
-    "bumpp": "12.2.1",
+    "bumpp": "12.2.2",
     "pkg-pr-new": "0.0.88",
     "typescript": "7.0.2",
     "vite": "catalog:",
