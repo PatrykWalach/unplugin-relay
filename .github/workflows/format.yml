@@ -1,0 +1,30 @@
+name: autofix.ci
+
+on:
+  push:
+    branches:
+      - renovate/**
+  pull_request:
+  merge_group:
+  workflow_dispatch:
+
+permissions: {}
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+      - uses: voidzero-dev/setup-vp@250f29ce396baf5e8f24498e17c0dfdebabc26eb # v1
+        with:
+          sfw: true
+          cache: false
+      - run: vp check --fix
+      - name: Commit changes
+        if: ${{ !cancelled() }}
+        uses: autofix-ci/action@7a166d7532b277f34e16238930461bf77f9d7ed8
+        with:
+          commit-message: "refactor: run format"
