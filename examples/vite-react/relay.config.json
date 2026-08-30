@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/relay-compiler/relay-compiler-config-schema.json",
+  "src": "./src",
+  "language": "typescript",
+  "schema": "./schema.graphql",
+  "eagerEsModules": true,
+  "artifactDirectory": "./src/gql",
+  "excludes": ["**/node_modules/**", "**/__mocks__/**", "**/__generated__/**"],
+  "featureFlags": {
+    "enable_strict_custom_scalars": true,
+    "enforce_fragment_alias_where_ambiguous": { "kind": "enabled" },
+    "compact_query_text": { "kind": "enabled" }
+  },
+  "requireCustomScalarTypes": true,
+  "useImportTypeSyntax": true,
+  "isDevVariableName": "import.meta.env?.DEV"
+}

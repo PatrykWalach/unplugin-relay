@@ -1,0 +1,12 @@
+type Counter {
+  id: ID!
+  count: Int
+}
+
+type Query {
+  counter: Counter
+}
+
+type Mutation {
+  setCount(newCount: Int): Counter
+}

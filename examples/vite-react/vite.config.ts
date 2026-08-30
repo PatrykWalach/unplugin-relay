@@ -1,6 +1,9 @@
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import { lazyPlugins } from "vite-plus";
+import relay from "unplugin-relay/vite";
+import relayConfig from "./relay.config.json" with { type: "json" };
+import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -27,5 +30,23 @@ export default defineConfig({
       },
     ],
   },
-  plugins: lazyPlugins(() => [react({ compiler: true })]),
+  plugins: lazyPlugins(() => {
+    if (
+      relayConfig.language !== "typescript" &&
+      relayConfig.language !== "javascript" &&
+      relayConfig.language !== "flow"
+    ) {
+      throw new Error(
+        "Invalid relay config: language must be one of: typescript, javascript, flow",
+      );
+    }
+    return [
+      relay({
+        language: relayConfig.language,
+        eagerEsModules: relayConfig.eagerEsModules,
+        artifactDirectory: path.resolve(relayConfig.artifactDirectory),
+      }),
+      react(),
+    ];
+  }),
 });
