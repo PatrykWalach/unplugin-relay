@@ -22,4 +22,4 @@ jobs:
           sfw: true
           cache: false
       - run: vp run build
-      - run: vp exec pkg-pr-new publish --pnpm --packageManager="pnpm"
+      - run: vp exec pkg-pr-new publish --pnpm --packageManager="pnpm" --template "./examples/*"
