@@ -1,5 +1,5 @@
 import type { UnpluginFactory } from "unplugin";
-import type { Options } from "./types";
+import type { Options } from "./types.ts";
 import { createUnplugin } from "unplugin";
 import { transform } from "oxc-transform-relay";
 

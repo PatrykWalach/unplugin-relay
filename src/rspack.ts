@@ -1,4 +1,4 @@
-import { createRspackPlugin } from 'unplugin'
-import { unpluginFactory } from '.'
+import { createRspackPlugin } from "unplugin";
+import { unpluginFactory } from "./index.ts";
 
-export default createRspackPlugin(unpluginFactory)
+export default createRspackPlugin(unpluginFactory);
