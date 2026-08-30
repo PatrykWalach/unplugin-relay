@@ -1,4 +1,4 @@
-import { createVitePlugin } from 'unplugin'
-import { unpluginFactory } from '.'
+import { createVitePlugin } from "unplugin";
+import { unpluginFactory } from "./index.ts";
 
-export default createVitePlugin(unpluginFactory)
+export default createVitePlugin(unpluginFactory);

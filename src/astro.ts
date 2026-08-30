@@ -1,6 +1,6 @@
-import type { Options } from "./types";
+import type { Options } from "./types.ts";
 
-import unplugin from ".";
+import unplugin from "./index.ts";
 
 export default (options: Options): any => ({
   name: "unplugin-relay",
