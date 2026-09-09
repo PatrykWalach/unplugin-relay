@@ -1,6 +1,6 @@
 {
   "name": "unplugin-relay",
-  "version": "0.1.2-beta.2",
+  "version": "0.1.2-beta.3",
   "description": "A plugin for relay",
   "keywords": [
     "astro",
