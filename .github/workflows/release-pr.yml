@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          # ref: ${{ github.event.pull_request.merge_commit_sha }}
           fetch-depth: 0
           filter: blob:none
           persist-credentials: false
@@ -60,6 +60,6 @@ jobs:
       # Requires npm CLI >= 11.5.1 and a configured trusted publisher on npmjs.com.
       - run: vp pm stage publish -- --no-git-checks
 
-      - run: vp run release --release patch
-      - run: vp run release --release minor
-      - run: vp run release --release major
+      - run: vp run release --release patch --yes
+      - run: vp run release --release minor --yes
+      - run: vp run release --release major --yes
