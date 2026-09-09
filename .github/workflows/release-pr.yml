@@ -60,6 +60,6 @@ jobs:
       # Requires npm CLI >= 11.5.1 and a configured trusted publisher on npmjs.com.
       - run: vp pm stage publish -- --no-git-checks
 
-      - run: vp run publish --release patch
-      - run: vp run publish --release minor
-      - run: vp run publish --release major
+      - run: vp run release --release patch
+      - run: vp run release --release minor
+      - run: vp run release --release major
