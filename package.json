@@ -79,7 +79,7 @@
     "unplugin": "^3.3.0"
   },
   "devDependencies": {
-    "@types/node": "26.2.0",
+    "@types/node": "26.5.1",
     "bumpp": "12.3.0",
     "pkg-pr-new": "0.0.88",
     "typescript": "7.0.2",
