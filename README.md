@@ -4,7 +4,6 @@
 [![pkg.pr.new](https://pkg.pr.new/badge/PatrykWalach/unplugin-relay)](https://pkg.pr.new/~/PatrykWalach/unplugin-relay)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/PatrykWalach/unplugin-relay)
 
-
 ## Install
 
 ```bash
