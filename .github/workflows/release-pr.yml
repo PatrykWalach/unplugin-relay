@@ -20,7 +20,7 @@ jobs:
       contents: write # create the tag, release, and read the repo
       id-token: write # npm OIDC trusted publishing
     steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/checkout@v5
         with:
           ref: ${{ github.event.pull_request.merge_commit_sha }}
           fetch-depth: 0
