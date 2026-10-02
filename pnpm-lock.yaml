@@ -229,8 +229,8 @@ importers:
         specifier: '*'
         version: 0.28.2
       oxc-transform-relay:
-        specifier: ^0.151.0
-        version: 0.151.0
+        specifier: ^0.152.0
+        version: 0.152.0
       rollup:
         specifier: ^3 || ^4.0.0
         version: 4.63.5
@@ -638,124 +638,124 @@ packages:
   '@oxc-project/types@0.143.0':
     resolution: {integrity: sha512-u6JZdLBTLotrNC9Vd6vPssINdzcCzleKAH6EJKImQb7GtYvX5keN2dxkoK44stCc4tffE6QQRtZTXVSzsLUlWA==}
 
-  '@oxc-transform-relay/binding-android-arm-eabi@0.151.0':
-    resolution: {integrity: sha512-7Amb4UJG6h/Gw0OoMdU1moQowk71Umbo7eq/SksLKV8wLiYira7CNihoFQ/FNtFtjfv26fzyIXc7RSqEnQFn/A==}
+  '@oxc-transform-relay/binding-android-arm-eabi@0.152.0':
+    resolution: {integrity: sha512-V6HVEqII2v3A47R0AhWiAhbr0y3qAprQB7lbGeEMF4Ni+wxpqnfpyP+3Pz3QyYE45yp0pKu+6niXPhN3p0ekyw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [android]
 
-  '@oxc-transform-relay/binding-android-arm64@0.151.0':
-    resolution: {integrity: sha512-Hg90p1zKca3HsWXKWUwjN16QcM9zdxQqwtr3xGKheDqt2iq2QtMhoSkVHdGZTDFtMJOnUEAuXBQi1tq7HedLqA==}
+  '@oxc-transform-relay/binding-android-arm64@0.152.0':
+    resolution: {integrity: sha512-LpxUNot8CYw5X1IAPpDzX42MoeaZ1mZowt2IN6MZF8j7upbvZ3B6Ax5RdZbn95i+x0PKctZb/4F68cZ8ESuNpw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [android]
 
-  '@oxc-transform-relay/binding-darwin-arm64@0.151.0':
-    resolution: {integrity: sha512-c93JPC9OfOVfK4z8fgF81fPPvevFtXVOD0r6YAQCnteXGrzNbNAFAmiIga1ORnQuw90IwYmRi4zSLBZZR1ErEg==}
+  '@oxc-transform-relay/binding-darwin-arm64@0.152.0':
+    resolution: {integrity: sha512-leQ3m5s9M3WnjVg/5JC9YKbGs7v8dOB8E0Bpv7Cv6wLFU+I8H+lckz85L8ZoRC9Y4uQztyt8gVjUZb1BEa0SqA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
 
-  '@oxc-transform-relay/binding-darwin-x64@0.151.0':
-    resolution: {integrity: sha512-+tGumJBSGnuLzCU8CK5sQPjFZKTENae5emryuSVMoxRxnlX45fb/iIUSKgv67JfCKJpkETU9U2svA/afOWXIbA==}
+  '@oxc-transform-relay/binding-darwin-x64@0.152.0':
+    resolution: {integrity: sha512-AIqWxeCfSvH6nTFZDfRithiBVPMbnKGfo39fS+P/O4V8WVgbPM6x8ggT4SbylBh8DVEbP4LtijfXcoa6N5nnbQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [darwin]
 
-  '@oxc-transform-relay/binding-freebsd-x64@0.151.0':
-    resolution: {integrity: sha512-TseUOH+eVahk1Khq1sBIoEsISFzbf1NDJ5T1sWx6DimlCKhUDkBcKzWs9HsjUnWj0nAumAI74yN2gNM/va4xnw==}
+  '@oxc-transform-relay/binding-freebsd-x64@0.152.0':
+    resolution: {integrity: sha512-6I6BEA+0SUWxbMpWQ4LLmRi2LFfJCXn0BCsf/aBnR/nItt/JCIaWxzfqDlcuFdH2JDmGUF0a7y+43mrWMU2dBg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
 
-  '@oxc-transform-relay/binding-linux-arm-gnueabihf@0.151.0':
-    resolution: {integrity: sha512-E4VWJV9X8NgJ1C7ksUlPZPbyBHj9Yb01UKJfSF4FChCc9HQH8kXH3izWAbgUBqUvfOVAiVfwkRDG4pjGT08m9Q==}
+  '@oxc-transform-relay/binding-linux-arm-gnueabihf@0.152.0':
+    resolution: {integrity: sha512-SDH7h9J++4xIqNO3JSHgUlIXAnMG7//1l4FFdUFJIgdMMYMMStXFF8WYxI8VhC2yPxL+YKCunp065muZQIhZYg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-transform-relay/binding-linux-arm-musleabihf@0.151.0':
-    resolution: {integrity: sha512-tGTyBuYQyHvepmo0pKUGuCrbFzSZ8K14xhpSml94+MBBHuaCSN51IHgiaB7PlT65AzG1J/ozFpshTzE0OLY4Mw==}
+  '@oxc-transform-relay/binding-linux-arm-musleabihf@0.152.0':
+    resolution: {integrity: sha512-DUjkrEBXIxFErjx7xY9Kv4xCjw4OpUKXU7FX4qIJmjkSe5kUZO0ICrctTf1TBZm3J5mfEjug/ML0odKuLNFmMw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm]
     os: [linux]
 
-  '@oxc-transform-relay/binding-linux-arm64-gnu@0.151.0':
-    resolution: {integrity: sha512-FcNmIcasBXwTIQzAL9NxSmAw794BnAmB1XoKOknRi5jSDMYZ4WVc63JAx/ABQY32St7VajNWOeiuxEA91Qn7Vw==}
+  '@oxc-transform-relay/binding-linux-arm64-gnu@0.152.0':
+    resolution: {integrity: sha512-yagiZlgXWIaoTjPfGPuKOssnQ4lXhm6sLBuqf0asNlv8qe1nEPTqBUT6X9dRXKMIx2CrPHnl05AtyRtJ0CIWHA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform-relay/binding-linux-arm64-musl@0.151.0':
-    resolution: {integrity: sha512-W6patUI7uyrGIBhElHFnbMG9HNDlWm+hH6hIg0wppyCf74oVyDOAJF1kK2mDIkWcOyddhK66ZSyEl/dvEVFP4w==}
+  '@oxc-transform-relay/binding-linux-arm64-musl@0.152.0':
+    resolution: {integrity: sha512-rHL9oj4t/vZgX+7v2FGOCB9d2tthvUueeBt/86k41KTy4KIQ3/R3vGnxNxvyrvN1vDpldFdfpAP8DQHhogMFFw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-transform-relay/binding-linux-ppc64-gnu@0.151.0':
-    resolution: {integrity: sha512-vlBxtc2wfo1gmIjxiav2Um6VHr9NjE9+S7cKw6G37snJkCoS4+HT9QxzPXA2+PPni4G91qE6yFlLmR8azK7KvA==}
+  '@oxc-transform-relay/binding-linux-ppc64-gnu@0.152.0':
+    resolution: {integrity: sha512-1R2QUK2/cKsh865xk5Qq+UoQgsNnLJYYPk/vbgdBAaU+vc5VmvbAUvmheoHYSao9lpL9mJFh8ZW6ttWJKSwatA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform-relay/binding-linux-riscv64-gnu@0.151.0':
-    resolution: {integrity: sha512-O7TIDdoc7CYZ+arH6g6Xdxv/uptp86y89C9/KlfMQiMwYZtxBVMdSTvgM6H9r5AhIj/cFjVXJ7cYqJ8yAHfb+w==}
+  '@oxc-transform-relay/binding-linux-riscv64-gnu@0.152.0':
+    resolution: {integrity: sha512-8heOrKRD/5cXvtBXT9AZwzY4gut7IzkKrkWBP8tvzbJjgiDXE+ulQJl1Kj76ypQmB9nR/YhhdiZSDekekDzLGA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform-relay/binding-linux-riscv64-musl@0.151.0':
-    resolution: {integrity: sha512-f1zSdlamaB01LcLof4nSUILA8eWz7txClvRA3GVoyTQ6frwzNspzCmDwR0jPUZU8iSSWOPnBm6GOKBWRQZLUAA==}
+  '@oxc-transform-relay/binding-linux-riscv64-musl@0.152.0':
+    resolution: {integrity: sha512-YMDijEnvfZ+L/VWdhHIsxYjKA6g389F2SVFfV0LNpkCyIEBhBsVa1AuCG5bETjLll9PWy5IpKivk/QiNJdfO9w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [riscv64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-transform-relay/binding-linux-s390x-gnu@0.151.0':
-    resolution: {integrity: sha512-DFWu6Klmw/eOw5ApnpWJGDOnCgULLfVc1P+r6w8JhRNhLpSfBS1f0f7XLQmHjoBS6V9PCqkszCASBIrfObZVDQ==}
+  '@oxc-transform-relay/binding-linux-s390x-gnu@0.152.0':
+    resolution: {integrity: sha512-J8Vjo/PE7AIGEL6x+OZorT25IjtY5okwYkZ0Ke3QD14rx5pmjSDwF0HReUqf9Eo3hxG0LSYVV5cIXtiZ4M+7Xg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform-relay/binding-linux-x64-gnu@0.151.0':
-    resolution: {integrity: sha512-3xZ8cI4wH4ZFsFU97PyGRwHBYAVQ9Klmuz+mGNoihvRCtmNeMmutD9hFjrHEEicsDZ8Ty3LBjVmoen7WhPNQMw==}
+  '@oxc-transform-relay/binding-linux-x64-gnu@0.152.0':
+    resolution: {integrity: sha512-h8u+afMBoJQhuk2bLa4Yilg/po8vVPofQ548C+6lRSSL17F2n3YNIzSu0bT3kD7PCmLbaVmaNWJHVc8z8LVFmw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@oxc-transform-relay/binding-linux-x64-musl@0.151.0':
-    resolution: {integrity: sha512-YJw5vGk2pUtUXIF2WisjB94QJA5hAuX5GAlaXH9bG618FZ8jqTthcqf5Y1DAAGPpYAeUYG0gzudcRWUatCootw==}
+  '@oxc-transform-relay/binding-linux-x64-musl@0.152.0':
+    resolution: {integrity: sha512-jek3ZEpOMqzVJQ7KumdttoPkZi8J3n00nd+kZ9X0uzYR3mAd24voXzO0hlPib9uiqZGSYyL6oTGx/dsz1WZ8/A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@oxc-transform-relay/binding-openharmony-arm64@0.151.0':
-    resolution: {integrity: sha512-hj/H1qC2gqWTTPiC7e/jez6H0OyrXOY3Bcd/zhNOGJ2X9tV7cIQKp5q9CQ+yJHT1wGG6zbQ0pttE+xDTceGvHA==}
+  '@oxc-transform-relay/binding-openharmony-arm64@0.152.0':
+    resolution: {integrity: sha512-556487kCsD/8t4W6VqXij5mebZYyz6W1OHa5hg2yv76N2Dm2ER5cef8dRxA+Sbm86JTVcEvFukmaUBrtoOG4xA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
 
-  '@oxc-transform-relay/binding-win32-arm64-msvc@0.151.0':
-    resolution: {integrity: sha512-kw8/niVsCsNLKkjllPPTGMhxuaPVXtYBuryoUZnyrcQRX4BAiV+U+p9DDnPMy6ZRfXIBtXNu8vzDiWbYxitqew==}
+  '@oxc-transform-relay/binding-win32-arm64-msvc@0.152.0':
+    resolution: {integrity: sha512-lQyUZNBWWk088B/YiVlxTvTUd2aIJqgTglGlCvrxJvhMovljfkeZEQUgzPL7FPmoqlHwzC+f7sGOiEZRoo49SQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
 
-  '@oxc-transform-relay/binding-win32-ia32-msvc@0.151.0':
-    resolution: {integrity: sha512-eKuk60pa2eHNFJftT1HRHOc6sGNT6bsY21+Vhdv+BM2q4gW//e56xAYaaL8tbQUn4njqAZSW4E8VAcJIbCg1yQ==}
+  '@oxc-transform-relay/binding-win32-ia32-msvc@0.152.0':
+    resolution: {integrity: sha512-o1krXsqP8HDoiPlifb4dUEJ/v88iRdKaqeJk2deczbJ2oIzTQ1HpV8IgaHzQIYKgCcK4K6DMV+muOyj34CGOFA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ia32]
     os: [win32]
 
-  '@oxc-transform-relay/binding-win32-x64-msvc@0.151.0':
-    resolution: {integrity: sha512-po3zMZNQwFxd+7h5Dl386E9EDuct7K9XF5VnMmM/pz6/VgZs8HgS2zvxOEbjzbmTMgrpDIl3nMlNvcpZgKzjnA==}
+  '@oxc-transform-relay/binding-win32-x64-msvc@0.152.0':
+    resolution: {integrity: sha512-rEK2bq3KrzNTebx/04Pu4PRvNc0Jn+tTgt3+O4RH2R/OdoCIWK1tnNvHJNpc6p6k3uu3Z4/3cZdaNCOuUiM8mA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
@@ -2702,8 +2702,8 @@ packages:
   outdent@0.5.0:
     resolution: {integrity: sha512-/jHxFIzoMXdqPzTaCpFzAAWhpkSjZPF4Vsn6jAfNpmbH/ymsmd7Qc6VE9BGn0L6YMj6uwpQLxCECpus4ukKS9Q==}
 
-  oxc-transform-relay@0.151.0:
-    resolution: {integrity: sha512-YCXNmS7R/D0KOndDqCu93ZTToe4ZCIsDXj8HxbaeZym/uGR1iBdYN7Xlwkc3uqtW2t7PHcgmcH/g1wQbj+SIdQ==}
+  oxc-transform-relay@0.152.0:
+    resolution: {integrity: sha512-4dyipIyHxUIlzSRHG8rO76NHePQYyokSEMX8kpdjdX4jw4YPqn/TKLfYOLbUrSqefWWEFIAJI/T8Q1WKjihpdQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   oxfmt@0.62.0:
@@ -3719,61 +3719,61 @@ snapshots:
 
   '@oxc-project/types@0.143.0': {}
 
-  '@oxc-transform-relay/binding-android-arm-eabi@0.151.0':
+  '@oxc-transform-relay/binding-android-arm-eabi@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-android-arm64@0.151.0':
+  '@oxc-transform-relay/binding-android-arm64@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-darwin-arm64@0.151.0':
+  '@oxc-transform-relay/binding-darwin-arm64@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-darwin-x64@0.151.0':
+  '@oxc-transform-relay/binding-darwin-x64@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-freebsd-x64@0.151.0':
+  '@oxc-transform-relay/binding-freebsd-x64@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-arm-gnueabihf@0.151.0':
+  '@oxc-transform-relay/binding-linux-arm-gnueabihf@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-arm-musleabihf@0.151.0':
+  '@oxc-transform-relay/binding-linux-arm-musleabihf@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-arm64-gnu@0.151.0':
+  '@oxc-transform-relay/binding-linux-arm64-gnu@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-arm64-musl@0.151.0':
+  '@oxc-transform-relay/binding-linux-arm64-musl@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-ppc64-gnu@0.151.0':
+  '@oxc-transform-relay/binding-linux-ppc64-gnu@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-riscv64-gnu@0.151.0':
+  '@oxc-transform-relay/binding-linux-riscv64-gnu@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-riscv64-musl@0.151.0':
+  '@oxc-transform-relay/binding-linux-riscv64-musl@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-s390x-gnu@0.151.0':
+  '@oxc-transform-relay/binding-linux-s390x-gnu@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-x64-gnu@0.151.0':
+  '@oxc-transform-relay/binding-linux-x64-gnu@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-linux-x64-musl@0.151.0':
+  '@oxc-transform-relay/binding-linux-x64-musl@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-openharmony-arm64@0.151.0':
+  '@oxc-transform-relay/binding-openharmony-arm64@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-win32-arm64-msvc@0.151.0':
+  '@oxc-transform-relay/binding-win32-arm64-msvc@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-win32-ia32-msvc@0.151.0':
+  '@oxc-transform-relay/binding-win32-ia32-msvc@0.152.0':
     optional: true
 
-  '@oxc-transform-relay/binding-win32-x64-msvc@0.151.0':
+  '@oxc-transform-relay/binding-win32-x64-msvc@0.152.0':
     optional: true
 
   '@oxfmt/binding-android-arm-eabi@0.62.0':
@@ -5294,27 +5294,27 @@ snapshots:
 
   outdent@0.5.0: {}
 
-  oxc-transform-relay@0.151.0:
+  oxc-transform-relay@0.152.0:
     optionalDependencies:
-      '@oxc-transform-relay/binding-android-arm-eabi': 0.151.0
-      '@oxc-transform-relay/binding-android-arm64': 0.151.0
-      '@oxc-transform-relay/binding-darwin-arm64': 0.151.0
-      '@oxc-transform-relay/binding-darwin-x64': 0.151.0
-      '@oxc-transform-relay/binding-freebsd-x64': 0.151.0
-      '@oxc-transform-relay/binding-linux-arm-gnueabihf': 0.151.0
-      '@oxc-transform-relay/binding-linux-arm-musleabihf': 0.151.0
-      '@oxc-transform-relay/binding-linux-arm64-gnu': 0.151.0
-      '@oxc-transform-relay/binding-linux-arm64-musl': 0.151.0
-      '@oxc-transform-relay/binding-linux-ppc64-gnu': 0.151.0
-      '@oxc-transform-relay/binding-linux-riscv64-gnu': 0.151.0
-      '@oxc-transform-relay/binding-linux-riscv64-musl': 0.151.0
-      '@oxc-transform-relay/binding-linux-s390x-gnu': 0.151.0
-      '@oxc-transform-relay/binding-linux-x64-gnu': 0.151.0
-      '@oxc-transform-relay/binding-linux-x64-musl': 0.151.0
-      '@oxc-transform-relay/binding-openharmony-arm64': 0.151.0
-      '@oxc-transform-relay/binding-win32-arm64-msvc': 0.151.0
-      '@oxc-transform-relay/binding-win32-ia32-msvc': 0.151.0
-      '@oxc-transform-relay/binding-win32-x64-msvc': 0.151.0
+      '@oxc-transform-relay/binding-android-arm-eabi': 0.152.0
+      '@oxc-transform-relay/binding-android-arm64': 0.152.0
+      '@oxc-transform-relay/binding-darwin-arm64': 0.152.0
+      '@oxc-transform-relay/binding-darwin-x64': 0.152.0
+      '@oxc-transform-relay/binding-freebsd-x64': 0.152.0
+      '@oxc-transform-relay/binding-linux-arm-gnueabihf': 0.152.0
+      '@oxc-transform-relay/binding-linux-arm-musleabihf': 0.152.0
+      '@oxc-transform-relay/binding-linux-arm64-gnu': 0.152.0
+      '@oxc-transform-relay/binding-linux-arm64-musl': 0.152.0
+      '@oxc-transform-relay/binding-linux-ppc64-gnu': 0.152.0
+      '@oxc-transform-relay/binding-linux-riscv64-gnu': 0.152.0
+      '@oxc-transform-relay/binding-linux-riscv64-musl': 0.152.0
+      '@oxc-transform-relay/binding-linux-s390x-gnu': 0.152.0
+      '@oxc-transform-relay/binding-linux-x64-gnu': 0.152.0
+      '@oxc-transform-relay/binding-linux-x64-musl': 0.152.0
+      '@oxc-transform-relay/binding-openharmony-arm64': 0.152.0
+      '@oxc-transform-relay/binding-win32-arm64-msvc': 0.152.0
+      '@oxc-transform-relay/binding-win32-ia32-msvc': 0.152.0
+      '@oxc-transform-relay/binding-win32-x64-msvc': 0.152.0
 
   oxfmt@0.62.0(vite-plus@0.2.9(@types/node@26.2.0)(@voidzero-dev/vite-plus-core@0.2.9(@types/node@26.2.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(typescript@7.0.2)(yaml@2.9.1))(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(typescript@7.0.2)(yaml@2.9.1)):
     dependencies:
