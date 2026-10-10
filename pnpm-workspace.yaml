@@ -2,8 +2,8 @@ allowBuilds:
   core-js: false
   esbuild: false
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@1.0.0
-  vite-plus: 1.0.0
+  vite: npm:@voidzero-dev/vite-plus-core@1.1.0
+  vite-plus: 1.1.0
 minimumReleaseAgeExclude:
   - "@oxc-transform-relay/binding-android-arm-eabi@0.145.0"
   - "@oxc-transform-relay/binding-android-arm64@0.145.0"
