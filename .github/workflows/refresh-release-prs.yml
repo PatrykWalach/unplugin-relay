@@ -31,6 +31,7 @@ jobs:
         id: patch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       - run: vp run release --release patch
         if: steps.patch.outcome == 'failure'
@@ -39,6 +40,7 @@ jobs:
         id: minor
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       - run: vp run release --release minor
         if: steps.minor.outcome == 'failure'
@@ -47,6 +49,7 @@ jobs:
         id: major
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       - run: vp run release --release major
         if: steps.major.outcome == 'failure'
