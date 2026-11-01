@@ -1,0 +1,24 @@
+name: Refresh Release PRs
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  refresh-release-prs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          persist-credentials: false
+      - uses: voidzero-dev/setup-vp@250f29ce396baf5e8f24498e17c0dfdebabc26eb # v1
+        with:
+          sfw: true
+          cache: false
+
+      - run: vp run release --release patch --yes
+      - run: vp run release --release minor --yes
+      - run: vp run release --release major --yes

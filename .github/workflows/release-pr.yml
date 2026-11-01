@@ -14,7 +14,7 @@ jobs:
     if: >-
       github.event.pull_request.merged == true &&
       github.event.pull_request.head.repo.full_name == github.repository &&
-      (startsWith(github.event.pull_request.head.ref, 'release/') || startsWith(github.event.pull_request.head.ref, 'renovate/'))
+      startsWith(github.event.pull_request.head.ref, 'release/')
     runs-on: ubuntu-latest
     permissions:
       contents: write # create the tag, release, and read the repo
@@ -59,7 +59,3 @@ jobs:
       # Publish with npm OIDC trusted publishing (no NPM_TOKEN needed).
       # Requires npm CLI >= 11.5.1 and a configured trusted publisher on npmjs.com.
       - run: vp pm stage publish -- --no-git-checks
-
-      - run: vp run release --release patch --yes
-      - run: vp run release --release minor --yes
-      - run: vp run release --release major --yes
