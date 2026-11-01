@@ -19,6 +19,11 @@ jobs:
           sfw: true
           cache: false
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - run: vp run release --release patch --yes
       - run: vp run release --release minor --yes
       - run: vp run release --release major --yes
