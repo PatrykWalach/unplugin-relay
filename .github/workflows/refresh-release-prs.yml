@@ -28,11 +28,25 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - run: vp run release --release patch --yes
+        id: patch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: vp run release --release patch
+        if: steps.patch.outcome == 'failure'
+
       - run: vp run release --release minor --yes
+        id: minor
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: vp run release --release minor
+        if: steps.minor.outcome == 'failure'
+
       - run: vp run release --release major --yes
+        id: major
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: vp run release --release major
+        if: steps.major.outcome == 'failure'
