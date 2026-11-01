@@ -3,7 +3,7 @@ name: Refresh Release PRs
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   refresh-release-prs:
